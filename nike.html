@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKE SHOE</title>
+</head>
+<body>
+    <img src="./nike-shoe.jpeg" alt="Nike Shoe">
+    <p>Nike Shoe</p>
+    <button onclick="purchase()">Purchase - $200000</button>
+    <p id="error"></p>
+    
+    <script>
+          let errorParagraph = document.getElementById("error")
+        console.log(errorParagraph)
+
+        function purchase(){
+            console.log("button clicked")
+            errorParagraph.textContent = "something went wrong please try again"
+        }
+
+
+    </script>
+    
+    
+</body>
+</html>
